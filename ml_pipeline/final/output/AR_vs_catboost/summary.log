@@ -1,0 +1,6 @@
+[Phase 3] B*=AR vs B*+CatBoost (3 롤링 윈도우)
+확정 CatBoost: {'CB_ITERATIONS': 3000, 'CB_LEARNING_RATE': 0.03, 'CB_DEPTH': 8, 'CB_L2_LEAF_REG': 3.0, 'CB_RANDOM_STRENGTH': 1.0, 'CB_BAGGING_TEMPERATURE': 1.0, 'CB_BORDER_COUNT': 254}
+평균 WAPE: Before=0.1399 After=0.1246 (gain +10.94%)
+평균 RMSE: Before=60,982.6 After=49,377.9
+WAPE 우위: After=519 Before=481 / RMSE 우위: After=555 Before=445
+step 거리우위: After=11609 Before=12391 동점=0

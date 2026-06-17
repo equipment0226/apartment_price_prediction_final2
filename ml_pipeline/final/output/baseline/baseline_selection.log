@@ -1,0 +1,29 @@
+[Phase 1] 베이스라인 선정 — KB50 × 3 롤링 윈도우 (총 1,000 분석)
+  BT@2024-06: 2016-06~2024-05 → 2024-06~2025-05
+  BT@2023-06: 2015-06~2023-05 → 2023-06~2024-05
+  BT@2022-06: 2014-06~2022-05 → 2022-06~2023-05
+======================================================================
+(1) 평균 지표
+                     RMSE    WAPE
+모델                               
+RandomWalk     23409.4856  0.0620
+SeasonalNaive  31733.4910  0.0827
+AR             30803.1982  0.0759
+BAR            30258.9501  0.0748
+BAR-X          32023.6035  0.0822
+
+(2) 우위 카운트
+  RandomWalk     WAPE우위 348 | RMSE우위 319
+  SeasonalNaive  WAPE우위 39 | RMSE우위 41
+  AR             WAPE우위 338 | RMSE우위 347
+  BAR            WAPE우위 191 | RMSE우위 200
+  BAR-X          WAPE우위 84 | RMSE우위 93
+
+(3) step거리우위 (총 12,000 step)
+  RandomWalk     4305 step
+  SeasonalNaive  1192 step
+  AR             3393 step
+  BAR            2219 step
+  BAR-X          891 step
+
+★ B* = RandomWalk

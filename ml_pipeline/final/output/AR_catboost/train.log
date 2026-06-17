@@ -1,0 +1,4 @@
+[Phase 2] 배포 CatBoost (B*=AR, 보유 데이터 전체)
+학습세트 3,137,368행 | best_iter=1160
+params: iter=3000 lr=0.03 depth=8 l2=3.0 border=254 bag_temp=1.0 rand_str=1.0
+valid RMSE 무보정=0.10763 CatBoost=0.08892
