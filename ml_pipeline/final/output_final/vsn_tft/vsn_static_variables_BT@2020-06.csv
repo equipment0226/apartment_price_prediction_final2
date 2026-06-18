@@ -1,0 +1,12 @@
+﻿윈도우,구분,변수,선택가중치
+BT@2020-06,static_variables,Header_단지명,0.2730053457820991
+BT@2020-06,static_variables,Header_평형,0.2548027286035209
+BT@2020-06,static_variables,resid_target_scale,0.12274764474580314
+BT@2020-06,static_variables,Header_동,0.11129407374014232
+BT@2020-06,static_variables,Static__준공구분,0.07246503037301204
+BT@2020-06,static_variables,resid_target_center,0.035429528245269785
+BT@2020-06,static_variables,Static__평수구분,0.035029726067925225
+BT@2020-06,static_variables,Static__초품아여부,0.034252622757157535
+BT@2020-06,static_variables,Header_구,0.0236393605493868
+BT@2020-06,static_variables,Static__건설사등급,0.023083732581603983
+BT@2020-06,static_variables,Static__세대수구분,0.014250206554079164

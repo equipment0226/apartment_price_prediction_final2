@@ -1,0 +1,4 @@
+﻿모델,WAPE우위,RMSE우위,step거리우위
+RandomWalk,29913,29890,349165
+SeasonalNaive,886,836,37111
+AR,19559,19632,218020
