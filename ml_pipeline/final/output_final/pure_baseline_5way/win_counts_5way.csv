@@ -1,0 +1,6 @@
+﻿모델,WAPE우위,RMSE우위
+SeasonalNaive,4764,4748
+RandomWalk,17738,17131
+AR,12459,12649
+PureCatBoost,6841,6743
+PureTFT,8556,9087
